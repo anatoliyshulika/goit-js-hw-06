@@ -13,6 +13,17 @@ body {
   line-height: 1.5;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
 input {
   padding: 8px;
   font: inherit;
@@ -21,4 +32,13 @@ input {
 button {
   padding: 8px 12px;
   cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
 }
